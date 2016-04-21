@@ -1,17 +1,75 @@
+
+# Compiled source #
+###################
+*.com
 *.class
+*.dll
+*.exe
+*.o
+*.so
 *.log
 
-# sbt specific
-.cache
-.history
-.lib/
-dist/*
-target/
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.diff
+*.patch
+
+# IDE #
+######################
+!nbproject
+.idea
+.idea_modules
+.iml
+
+# Logs and databases #
+######################
+*.log
+*.sqlite
+*.bak
+*.orig
+*.diff
+dump.rdb
+
+# OS generated files #
+######################
+.DS_Store?
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+*~
+
+###
+target
+dist
 lib_managed/
 src_managed/
 project/boot/
 project/plugins/project/
 
 # Scala-IDE specific
+######################
 .scala_dependencies
-.worksheet
+
+# Eclipse specific
+###################
+.cache-main
+.cache-tests
+.classpath
+.gitignore.swp
+.project
+.settings
+.metadata
+.recommenders
+
+bin
